@@ -1,7 +1,6 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 )
 
@@ -10,9 +9,8 @@ func truncNum() (int, error) {
 
 	fmt.Println("[INFO] Enter float number: ")
 	if _, err := fmt.Scan(&inNum); err != nil {
-		return 0, errors.New("[ERROR] 'Scan' executed with error")
+		return -1, err
 	}
-
 	outNum := int(inNum)
 	fmt.Println("[INFO] Truncated number:", outNum)
 	return outNum, nil
