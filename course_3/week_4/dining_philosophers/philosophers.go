@@ -33,9 +33,6 @@ func (h *host) host(askChan chan *philosopher, answChan chan *philosopher, wg *s
 				idx := slices.Index(h.activeEaters, fullPhilo)
 				h.activeEaters = append(h.activeEaters[:idx], h.activeEaters[idx+1:]...)
 			}
-		} else {
-			log.Println("No available chopsticks for eating")
-			answChan <- nil
 		}
 	}
 }
@@ -67,18 +64,14 @@ func (p *philosopher) eat(askChan chan *philosopher, answChan chan *philosopher,
 func main() {
 	cSticks := make([]*chopS, PhilosNum)
 	philos := make([]*philosopher, PhilosNum)
-
 	askChan := make(chan *philosopher)
 	answChan := make(chan *philosopher)
-
 	h := host{activeEaters: make([]*philosopher, 0)}
-
 	var wg sync.WaitGroup
 
 	for i := 0; i < PhilosNum; i++ {
 		cSticks[i] = new(chopS)
 	}
-
 	for i := 0; i < PhilosNum; i++ {
 		philos[i] = &philosopher{
 			id:      i + 1,
