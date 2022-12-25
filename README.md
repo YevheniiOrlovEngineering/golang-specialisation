@@ -12,4 +12,4 @@ the knowledge and skills needed to create concise, efficient, and clean applicat
 
 * :heavy_check_mark: [Getting Started with Go](https://www.coursera.org/programs/program-natsional-nii-tiekhnichnii-univiersitiet-ukrayini-kiyivs-kii?collectionId=&currentTab=CATALOG&productId=fuFdqqrEEeeQCg4vdZhqYg&productType=course&showMiniModal=true)
 * :heavy_check_mark: [Functions, Methods, and Interfaces in Go](https://www.coursera.org/programs/program-natsional-nii-tiekhnichnii-univiersitiet-ukrayini-kiyivs-kii?collectionId=&currentTab=CATALOG&productId=fpgfB6rEEeehUAoZLUjGpg&productType=s12n&showMiniModal=true) 
-* :x: [Concurrency in Go](https://www.coursera.org/programs/program-natsional-nii-tiekhnichnii-univiersitiet-ukrayini-kiyivs-kii?collectionId=&currentTab=CATALOG&productId=fpgfB6rEEeehUAoZLUjGpg&productType=s12n&showMiniModal=true)
+* :heavy_check_mark: [Concurrency in Go](https://www.coursera.org/programs/program-natsional-nii-tiekhnichnii-univiersitiet-ukrayini-kiyivs-kii?collectionId=&currentTab=CATALOG&productId=fpgfB6rEEeehUAoZLUjGpg&productType=s12n&showMiniModal=true)
